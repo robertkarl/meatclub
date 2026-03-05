@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAT CLUB</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #f4e4c9;
+            color: #2c1810;
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            background: #fdf6e8;
+            min-height: 100vh;
+            border-left: 1px solid #d4c4a8;
+            border-right: 1px solid #d4c4a8;
+            box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 2px solid #8b7355;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #2c1810;
+            letter-spacing: 0.4em;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .quill {
+            font-size: 2rem;
+            margin-top: 15px;
+        }
+
+        .resolved {
+            font-size: 1.1rem;
+            text-align: justify;
+            margin-bottom: 30px;
+            text-indent: 2em;
+        }
+
+        .resolved:first-of-type::first-line {
+            font-variant: small-caps;
+        }
+
+        .article {
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .article h2 {
+            font-size: 1.1rem;
+            font-weight: normal;
+            font-variant: small-caps;
+            letter-spacing: 0.15em;
+            margin-bottom: 10px;
+            color: #4a3728;
+        }
+
+        .article p {
+            text-indent: 2em;
+            margin-bottom: 10px;
+        }
+
+        .article ul, .article ol {
+            margin-left: 4em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .article li {
+            margin-bottom: 5px;
+        }
+
+        .emphasis {
+            font-style: italic;
+        }
+
+        .caps {
+            font-variant: small-caps;
+            letter-spacing: 0.05em;
+        }
+
+        .meats-list {
+            margin: 20px 0;
+            padding-left: 4em;
+        }
+
+        .meats-list li {
+            margin-bottom: 3px;
+        }
+
+        .signature-block {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #8b7355;
+            text-align: center;
+        }
+
+        .signature-block p {
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .signature-block .org {
+            font-variant: small-caps;
+            letter-spacing: 0.2em;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .next-gathering {
+            background: #f0e6d2;
+            border: 1px solid #8b7355;
+            padding: 20px 30px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .next-gathering .label {
+            font-variant: small-caps;
+            letter-spacing: 0.2em;
+            color: #4a3728;
+        }
+
+        .next-gathering .date {
+            font-size: 1.4rem;
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        .section-break {
+            text-align: center;
+            margin: 30px 0;
+            color: #8b7355;
+            letter-spacing: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MEAT CLUB</h1>
+            <div class="quill">🪶</div>
+        </header>
+
+        <section class="next-gathering">
+            <p class="label">Next Gathering</p>
+            <p class="date">This Sunday</p>
+        </section>
+
+        <div class="article">
+            <p><span class="caps">Resolved,</span> in Order to form a more perfect Union of hungry Men, to establish Fellowship, ensure domestic Satisfaction, provide for the common Appetite, promote the general Welfare, and secure the Blessings of Smoked Meats to ourselves and our Posterity, we do ordain and establish this Manifesto for <span class="caps">Meat Club</span>.</p>
+        </div>
+
+        <div class="section-break">~ ~ ~</div>
+
+        <div class="article">
+            <h2>Article I — The Sacred Covenant</h2>
+            <p>Whereas certain Persons do gather monthly to discuss Literature and consume Cheeses of French and Continental origin, and whereas their Partners and chosen Friends do find themselves without Purpose during these Gatherings, it is hereby resolved that a separate Assembly shall convene, dedicated to the Preparation and Consumption of Meats.</p>
+            <p>This Assembly shall be known as <span class="caps">Meat Club</span>, and its Purpose shall be noble.</p>
+        </div>
+
+        <div class="article">
+            <h2>Article II — On Discourse</h2>
+            <p>The first Rule of Meat Club shall be thus: one <em>always</em> speaks of Meat Club. Let it be known throughout the Land. Let the Smoke signal our Presence. Let the Neighbors wonder, and let them envy.</p>
+        </div>
+
+        <div class="article">
+            <h2>Article III — On the Meats</h2>
+            <p>All Meats are welcome within this Assembly. None shall be turned away, for we hold these Truths to be self-evident: that all Meats are created equal, though some require longer Smoking than others.</p>
+            <p>The following Meats are recognized and celebrated:</p>
+            <ul class="meats-list">
+                <li><em>Brisket</em>, the undisputed King</li>
+                <li><em>Ribs</em>, beloved of the People</li>
+                <li><em>Pulled Pork</em>, the democratic Choice</li>
+                <li><em>Burger</em>, humble yet essential</li>
+                <li><em>Steak</em>, for when Words fail</li>
+                <li><em>Sausage</em>, the unsung Hero</li>
+                <li><em>Lamb</em>, for the Adventurous</li>
+                <li><em>Whole Hog</em>, for Days of particular Glory</li>
+            </ul>
+            <p>Let it be known: no Meat is too ambitious, and no Portion too large.</p>
+        </div>
+
+        <div class="article">
+            <h2>Article IV — On the Time of Gathering</h2>
+            <p>Whereas the Book Club doth gather, so too shall Meat Club assemble. While they read, we shall smoke. While they discuss Themes and Symbolism, we shall discuss Bark and Smoke Rings. While they consume Brie, we shall consume Beef.</p>
+            <p>This is the Way, and it shall not be altered.</p>
+        </div>
+
+        <div class="article">
+            <h2>Article V — On the Conduct of Members</h2>
+            <p>Be it resolved that every Member of this Assembly shall:</p>
+            <ol>
+                <li>Bring something to the Fire or to the Table</li>
+                <li>Respect the Pitmaster's Vision</li>
+                <li>Never depart whilst Hungry</li>
+                <li>Take Nap if needed, without Shame or Apology</li>
+                <li>Speak of the Meats consumed with Reverence in the Days following</li>
+            </ol>
+        </div>
+
+        <div class="article">
+            <h2>Article VI — On Forbidden Acts</h2>
+            <p>The following Actions are hereby prohibited and shall be considered contrary to the Spirit of this Assembly:</p>
+            <ol>
+                <li>Suggesting the Assembly "do a Salad instead"</li>
+                <li>Departing early whilst Meat remains</li>
+                <li>Disrespecting another Man's Rub Recipe</li>
+                <li>Introducing Veggie Burgers without prior Authorization</li>
+                <li>Checking the Time</li>
+            </ol>
+        </div>
+
+        <div class="article">
+            <h2>Article VII — On the Eternal Flame</h2>
+            <p>Meat Club is more than Meat. It is Brotherhood. It is Tradition. It is standing around a Grill saying "that looks about ready" no fewer than six Times before it is actually ready.</p>
+            <p><span class="caps">Meat Club is forever.</span></p>
+        </div>
+
+        <div class="section-break">~ ~ ~</div>
+
+        <div class="signature-block">
+            <p>Signed in Grease and Solidarity,</p>
+            <p class="org">The Founding Members of Meat Club</p>
+            <p style="margin-top: 20px; font-size: 0.9rem; color: #6b5344;">Established whilst our Partners discussed Books and consumed Fancy Cheese</p>
+        </div>
+    </div>
+</body>
+</html>
